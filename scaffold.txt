@@ -1,0 +1,7 @@
+rails genetate scaffold address street:string number:integer district:string city:string complement:string
+
+rails generate scaffold vehicle type:string maxWeight:float maxVolume:float description:string
+
+rails generate scaffold user name:string login:string password:string rg:integer cpf:integer address:references
+
+rails generate scaffold delivery description:string weight:float volume:float totalCost:float paid:boolean addressFrom:integer addressTo:integer vehicle:references
