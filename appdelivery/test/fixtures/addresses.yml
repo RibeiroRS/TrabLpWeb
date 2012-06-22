@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  street: MyString
+  number: 1
+  district: MyString
+  city: MyString
+  complement: MyString
+
+two:
+  street: MyString
+  number: 1
+  district: MyString
+  city: MyString
+  complement: MyString

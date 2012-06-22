@@ -1,4 +1,4 @@
-rails genetate scaffold address street:string number:integer district:string city:string complement:string
+rails generate scaffold address street:string number:integer district:string city:string complement:string
 
 rails generate scaffold vehicle type:string maxWeight:float maxVolume:float description:string
 
