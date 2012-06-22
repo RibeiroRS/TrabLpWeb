@@ -1,4 +1,6 @@
 Appdelivery::Application.routes.draw do
+  resources :vehicles
+
   resources :addresses
 
   # The priority is based upon order of creation:

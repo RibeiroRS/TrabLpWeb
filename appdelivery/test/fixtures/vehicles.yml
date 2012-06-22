@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  type: 
+  maxWeight: 1.5
+  maxVolume: 1.5
+  description: MyString
+
+two:
+  type: 
+  maxWeight: 1.5
+  maxVolume: 1.5
+  description: MyString
