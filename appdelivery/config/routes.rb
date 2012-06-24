@@ -1,4 +1,6 @@
 Appdelivery::Application.routes.draw do
+  resources :deliveries
+
   resources :users
 
   resources :vehicles

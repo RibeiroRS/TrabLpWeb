@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  description: MyString
+  weight: 1.5
+  volume: 1.5
+  totalCost: 1.5
+  paid: false
+  addressFrom: 1
+  addressTo: 1
+  vehicle: 
+
+two:
+  description: MyString
+  weight: 1.5
+  volume: 1.5
+  totalCost: 1.5
+  paid: false
+  addressFrom: 1
+  addressTo: 1
+  vehicle: 
