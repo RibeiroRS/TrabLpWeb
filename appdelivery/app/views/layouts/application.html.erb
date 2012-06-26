@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Appdelivery</title>
+  <title>Controle Entregas On Line</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<% flash.each do |name, msg| %>
+  <%= content_tag :div, msg, :id => "flash#{name}" %>
+<% end %>
+<% if session[:user_id] %>
+  <%= link_to 'Logout', logout_path %>
+<% end %>
 
 <%= yield %>
 
