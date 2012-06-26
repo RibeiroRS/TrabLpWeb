@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = User.find_by_username(params[:login])
+    user = User.find_by_login(params[:login])
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id
       redirect_to root_url, :notice => "Logado!"
