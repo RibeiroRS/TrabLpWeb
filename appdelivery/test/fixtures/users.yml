@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
-  login: MyString
-  password: MyString
+  name: Vinicius	
+  login: vine
+  password: senha
   rg: 1
   cpf: 1
-  address: 
+  address: 1
 
 two:
-  name: MyString
-  login: MyString
-  password: MyString
-  rg: 1
-  cpf: 1
-  address: 
+  name: Tales
+  login: tales
+  password: tales
+  rg: 2
+  cpf: 2
+  address: 2

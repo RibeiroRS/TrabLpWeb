@@ -1,21 +1,21 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  description: MyString
-  weight: 1.5
-  volume: 1.5
-  totalCost: 1.5
+  description: primeira entrega
+  weight: 10
+  volume: 20
+  totalCost: 150
   paid: false
-  addressFrom: 1
-  addressTo: 1
-  vehicle: 
+  addressFrom: 3
+  addressTo: 4
+  vehicle_id: 1
 
 two:
-  description: MyString
-  weight: 1.5
-  volume: 1.5
-  totalCost: 1.5
+  description: segunda entrega
+  weight: 20
+  volume: 15
+  totalCost: 200
   paid: false
-  addressFrom: 1
-  addressTo: 1
-  vehicle: 
+  addressFrom: 5
+  addressTo: 6
+  vehicle_id: 2

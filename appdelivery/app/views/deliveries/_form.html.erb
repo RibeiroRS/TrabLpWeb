@@ -41,7 +41,7 @@
   </div>
   <div class="field">
     <%= f.label :vehicle %><br />
-    <%= f.text_field :vehicle %>
+    <%= f.collection_select(:vehicle, Vehicle.all, :id, :description)%>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -1,15 +1,43 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  street: MyString
+  street: rua 1
   number: 1
-  district: MyString
-  city: MyString
-  complement: MyString
+  district: bairro rua 1
+  city: gravatai
+  complement: 
 
 two:
-  street: MyString
+  street: rua 2
   number: 1
-  district: MyString
-  city: MyString
-  complement: MyString
+  district: bairro rua 2
+  city: cachoeirinha
+  complement: 
+  
+tree:
+  street: rua 3
+  number: 1
+  district: bairro rua 3
+  city: gravatai
+  complement: 
+
+four:
+  street: rua 4
+  number: 1
+  district: bairro rua 4
+  city: cachoeirinha
+  complement: 
+
+five:
+  street: rua 5
+  number: 1
+  district: bairro rua 5
+  city: gravatai
+  complement: 
+
+six:
+  street: rua 6
+  number: 1
+  district: bairro rua 6
+  city: cachoeirinha
+  complement: 

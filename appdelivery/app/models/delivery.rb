@@ -1,9 +1,9 @@
 class Delivery < ActiveRecord::Base
-  attr_accessible :addressFrom, :addressTo, :description, :paid, :totalCost, :volume, :weightbelo
+  attr_accessible :addressFrom, :addressTo, :description, :paid, :totalCost, :volume, :weightbelo, :vehicle_id
   
-  has_one :vehicle
+  belongs_to :vehicle
   
-  has_one :address, :class_name => "From", :foreign_key => "addressFrom"
-  has_one :address, :class_name => "To", :foreign_key => "addressTo"
+  belongs_to :address, :class_name => "From", :foreign_key => "addressFrom"
+  belongs_to :address, :class_name => "To", :foreign_key => "addressTo"
   
 end
