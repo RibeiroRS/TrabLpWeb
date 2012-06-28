@@ -1,4 +1,4 @@
 class Vehicle < ActiveRecord::Base
-  attr_accessible :description, :maxVolume, :maxWeight, :type  
-  has_one :delivery
+  attr_accessible :description, :maxVolume, :maxWeight, :species
+  has_many :delivery
 end
