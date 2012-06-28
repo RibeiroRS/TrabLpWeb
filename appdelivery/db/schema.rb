@@ -51,7 +51,7 @@ ActiveRecord::Schema.define(:version => 20120622024948) do
   add_index "users", ["address_id"], :name => "index_users_on_address_id"
 
   create_table "vehicles", :force => true do |t|
-    t.string   "species"
+    t.string   "type"
     t.float    "maxWeight"
     t.float    "maxVolume"
     t.string   "description"
