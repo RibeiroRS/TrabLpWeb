@@ -1,5 +1,5 @@
 class Delivery < ActiveRecord::Base
-  attr_accessible :addressFrom, :addressTo, :description, :paid, :totalCost, :volume, :weightbelo, :vehicle_id
+  attr_accessible :addressFrom, :addressTo, :description, :paid, :totalCost, :volume, :weight, :vehicle_id
   
   belongs_to :vehicle
   
