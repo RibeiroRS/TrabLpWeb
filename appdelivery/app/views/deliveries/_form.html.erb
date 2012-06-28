@@ -40,8 +40,8 @@
     <%= f.number_field :addressTo %>
   </div>
   <div class="field">
-    <%= f.label :vehicle %><br />
-    <%= f.collection_select(:vehicle, Vehicle.all, :id, :description)%>
+    <%= f.label :vehicle_id %><br />
+    <%= f.collection_select(:vehicle_id, Vehicle.all, :id, :description)%>
   </div>
   <div class="actions">
     <%= f.submit %>
