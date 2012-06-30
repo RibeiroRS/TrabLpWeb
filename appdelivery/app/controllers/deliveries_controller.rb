@@ -25,7 +25,7 @@ class DeliveriesController < ApplicationController
   # GET /deliveries/new.json
   def new
     @delivery = Delivery.new
-
+	
     respond_to do |format|
       format.html # new.html.erb
       format.json { render :json => @delivery }
@@ -41,6 +41,15 @@ class DeliveriesController < ApplicationController
   # POST /deliveries.json
   def create
     @delivery = Delivery.new(params[:delivery])
+	
+	@addressFrom = Address.new
+	@addressTo = Address.new
+	
+	@addressFrom.save
+	@addressTo.save
+	
+	@delivery.addressFrom = @addressFrom.id
+	@delivery.addressTo = @addressTo.id
 
     respond_to do |format|
       if @delivery.save

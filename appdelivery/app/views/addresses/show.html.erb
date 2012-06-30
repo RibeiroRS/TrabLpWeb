@@ -27,4 +27,6 @@
 
 
 <%= link_to 'Edit', edit_address_path(@address) %> |
+<%= link_to 'teste', delivery_path(Delivery.where("addressFrom = @address.id or addressTo = @address.id").id) %> |
+
 <%= link_to 'Back', addresses_path %>
