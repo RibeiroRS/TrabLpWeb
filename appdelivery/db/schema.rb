@@ -50,13 +50,7 @@ ActiveRecord::Schema.define(:version => 20120622024948) do
 
   add_index "users", ["address_id"], :name => "index_users_on_address_id"
 
-  create_table "vehicles", :force => true do |t|
-    t.string   "type"
-    t.float    "maxWeight"
-    t.float    "maxVolume"
-    t.string   "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
+# Could not dump table "vehicles" because of following StandardError
+#   Unknown type 'real' for column 'maxWeight'
 
 end
