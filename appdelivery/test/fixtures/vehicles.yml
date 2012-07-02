@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  species: moto
-  maxWeight: 20
-  maxVolume: 50
-  description: moto 1
+  species: MyString
+  maxWeight: 1.5
+  maxVolume: 1.5
+  description: MyString
 
 two:
-  species: carro
-  maxWeight: 300
-  maxVolume: 300
-  description: carro 1
+  species: MyString
+  maxWeight: 1.5
+  maxVolume: 1.5
+  description: MyString
