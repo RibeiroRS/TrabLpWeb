@@ -2,14 +2,14 @@
 
 <table>
   <tr>
-    <th>Description</th>
-    <th>Weight</th>
+    <th>Descrição</th>
+    <th>Peso</th>
     <th>Volume</th>
-    <th>Totalcost</th>
-    <th>Paid</th>
-    <th>Addressfrom</th>
-    <th>Addressto</th>
-    <th>Vehicle</th>
+    <th>CustoTotal</th>
+    <th>Pago</th>
+    <th>Endereço Origem</th>
+    <th>Endereço Destino</th>
+    <th>Veiculo</th>
     <th></th>
     <th></th>
     <th></th>
@@ -24,7 +24,7 @@
     <td><%= delivery.paid %></td>
     <td><%= delivery.addressFrom %></td>
     <td><%= delivery.addressTo %></td>
-    <td><%= delivery.vehicle %></td>
+    <td><%= delivery.vehicle.species %></td>
     <td><%= link_to 'Show', delivery %></td>
     <td><%= link_to 'Edit', edit_delivery_path(delivery) %></td>
     <td><%= link_to 'Destroy', delivery, :confirm => 'Are you sure?', :method => :delete %></td>

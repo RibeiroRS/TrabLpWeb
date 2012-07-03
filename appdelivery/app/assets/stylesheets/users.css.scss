@@ -16,5 +16,8 @@
 	}
 	table{
 		color: green;
-		font-size: 20px;
+		font-size: 14px;
+		border-collapse: collapse;
+		
 	}
+	tr td {border:1px solid #FF0000;}
