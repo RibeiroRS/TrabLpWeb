@@ -3,7 +3,8 @@ class Delivery < ActiveRecord::Base
   
   belongs_to :vehicle
   
-  belongs_to :address, :class_name => "From", :foreign_key => "addressFrom"
-  belongs_to :address, :class_name => "To", :foreign_key => "addressTo"
+  
+  belongs_to :name, :class_name => "user", :foreign_key => "addressFrom"
+  belongs_to :name, :class_name => "user", :foreign_key => "addressTo"
   
 end

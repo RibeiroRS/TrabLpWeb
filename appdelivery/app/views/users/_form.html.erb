@@ -31,9 +31,14 @@
     <%= f.label :cpf %><br />
     <%= f.number_field :cpf %>
   </div>
+  <div class="field">  
+    <%= f.label :address_id %><br />
+    <%= f.collection_select(:address_id, Address.all, :id, :street)%>	
+
+  </div>
   <div class="field">
-    <%= f.label :address %><br />
-    <%= f.text_field :address %>
+    <%= f.label :nivel %><br />
+    <%= f.number_field :administrador %>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -33,11 +33,11 @@
   </div>
   <div class="field">
     <%= f.label :addressFrom %><br />
-    <%= f.number_field :addressFrom %>
+    <%= f.collection_select(:addressFrom, Address.all, :id, :street)%> 
   </div>
   <div class="field">
     <%= f.label :addressTo %><br />
-    <%= f.number_field :addressTo %>
+    <%= f.collection_select(:addressTo, Address.all, :id, :street)%> 
   </div>
   <div class="field">
     <%= f.label :vehicle_id %><br />

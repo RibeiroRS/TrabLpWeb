@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120702024707) do
+ActiveRecord::Schema.define(:version => 20120703232258) do
 
   create_table "addresses", :force => true do |t|
     t.string   "street"
@@ -44,8 +44,9 @@ ActiveRecord::Schema.define(:version => 20120702024707) do
     t.integer  "rg"
     t.integer  "cpf"
     t.integer  "address_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+    t.integer  "administrador"
   end
 
   add_index "users", ["address_id"], :name => "index_users_on_address_id"
