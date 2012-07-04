@@ -2,3 +2,7 @@ Adicionar campo administrador
 rails generate migration AddFieldsToUsers administrador:integer
 
 rails generate migration ChangeFieldsToDeliveries addressTo:references, addressFrom:references
+
+ 
+Tutorial de Rails
+Desenvolvido porEustáquio “TaQ” Rangel
