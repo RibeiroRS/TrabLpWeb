@@ -1,3 +1,5 @@
+<html>
+
 <%= form_for(@delivery) do |f| %>
   <% if @delivery.errors.any? %>
     <div id="error_explanation">
@@ -10,6 +12,10 @@
       </ul>
     </div>
   <% end %>
+
+		
+
+		
 
   <div class="field">
     <%= f.label :description %><br />
@@ -46,4 +52,13 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+  
+   
+
 <% end %>
+
+
+
+		
+
+</html>
